@@ -1,0 +1,101 @@
+/* src/App.css */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 25rem;
+}
+
+h1 {
+  margin: 0 0 15px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  background-color: #303438;
+}
+
+h2 {
+  margin: 0 0 15px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgb(48, 52, 56);
+  position: absolute;
+  margin-top: 47%;
+
+}
+
+#resetButton {
+  margin: 0 0 15px;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  background-color: rgb(48, 52, 56);
+  position: absolute;
+  margin-top: 65%;
+  /* margin-left: 50%; */
+
+}
+
+#resetButton:hover {
+  background-color: #97989a;
+}
+
+.board {
+  display: inline-block;
+  background-color: rgb(13, 13, 182);
+  border: 1px solid rgb(0, 0, 0);
+  z-index: 1;
+  width: 100%;
+
+
+
+  /* max-width: 800px; */
+
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.cell:hover {
+  background-color: #303438;
+}
+
+.cell.red {
+
+  background-color: rgb(255, 0, 0);
+
+
+}
+
+.cell.yellow {
+  background-color: rgb(255, 255, 0);
+  /* add show glow; */
+
+}
