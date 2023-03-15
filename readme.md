@@ -11,4 +11,4 @@ npm run dev
 
 ```
 
-![Connect4](src\assets\connect4.png)
+![Connect4](src/assets/connect4.png)
